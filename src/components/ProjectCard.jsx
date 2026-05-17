@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillCard from './SkillCard'
 
 export default function ProjectCard() {
     return (
@@ -15,6 +16,7 @@ export default function ProjectCard() {
                             {t}
                         </span>
                     ))} */}
+                    <SkillCard/>
                 </div>
 
                 {/* Links */}

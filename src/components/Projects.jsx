@@ -35,8 +35,12 @@ export default function Projects() {
                     <h2 className="text-4xl font-bold">Projects</h2>
                 </div>
 
-                {/* Cards */}
-                <ProjectCard />
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {projects.map((project, index) => {
+                        return <ProjectCard key={index} projectName={project.title} projectDescription={project.description} tech={project.tech} />
+                    })}
+                </div>
+
             </div>
         </section>
     )

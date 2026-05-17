@@ -3,7 +3,7 @@ import React from 'react'
 export default function NavBar() {
     return (
         <header className='sticky top-0 z-50'>
-            <nav className=' h-18 flex justify-between items-center pl-8 pr-8 text-xl text-blue-50  bg-blue-700'>
+            <nav className=' h-18  flex justify-between items-center pl-8 pr-8 text-xl text-blue-50  bg-blue-700'>
                 <div>
                     <h1>Ohad Raza</h1>
                 </div>

@@ -5,22 +5,19 @@ const projects = [
         title: "Weather App",
         description: "A real-time weather app that fetches live data using Open-Meteo API. Features include city search, error handling, and search history.",
         tech: ["HTML", "CSS", "JavaScript", "REST API"],
-        github: "#",
-        live: "#"
+        github: "https://github.com/OhadRaza01/WeatherAPP-Js"
     },
     {
         title: "Portfolio Website",
         description: "Personal portfolio website built with React and Tailwind CSS showcasing my projects and skills.",
         tech: ["React", "Tailwind CSS"],
-        github: "#",
-        live: "#"
+        github: "#"
     },
     {
         title: "Coming Soon",
         description: "Currently working on new projects. Check back soon!",
         tech: [],
-        github: null,
-        live: null
+        github: null
     }
 ]
 
@@ -37,7 +34,8 @@ export default function Projects() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, index) => {
-                        return <ProjectCard key={index} projectName={project.title} projectDescription={project.description} tech={project.tech} githubLink = {project.github} />
+                    console.log(project.github)
+                        return <ProjectCard projectName={project.title} projectDescription={project.description} tech={project.tech} githubLink = {project.github} />
                     })}
                 </div>
 

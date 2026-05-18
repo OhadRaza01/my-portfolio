@@ -1,10 +1,11 @@
 import React from 'react'
 import SkillCard from './SkillCard'
+import ProjectLink from './ProjectLink'
 
-export default function ProjectCard({ key, projectName, projectDescription, tech ,githubLink }) {
+export default function ProjectCard({projectName, projectDescription, tech ,githubLink }) {
     return (
 
-        <div className="flex flex-col gap-4 p-6 bg-gray-900 border border-gray-700/50 rounded-xl hover:border-blue-500/50 transition-colors">
+        <div  className="flex flex-col gap-4 p-6 bg-gray-900 border border-gray-700/50 rounded-xl hover:border-blue-500/50 transition-colors">
 
             <h3 className="text-xl font-semibold">{projectName}</h3>
             <p className="text-gray-400 text-sm leading-relaxed flex-1">{projectDescription}</p>
@@ -19,10 +20,7 @@ export default function ProjectCard({ key, projectName, projectDescription, tech
             {/* Links */}
             {githubLink && (
                     <div className="flex gap-4 mt-2">
-                        <a href={githubLink} className="text-sm text-gray-400 hover:text-white transition-colors">
-                            GitHub ↗
-                        </a>
-                        
+                        <ProjectLink link = {githubLink} />
                     </div>
                 )}
         </div>

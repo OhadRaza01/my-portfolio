@@ -6,13 +6,15 @@ export default function NavBar() {
     let [isOpen, setIsOpen] = useState(false)
     return (
         <header className='sticky top-0 z-50'>
-            <SideBar isOpen = {isOpen} />
+            <SideBar isOpen={isOpen} />
             <nav className=' h-18  flex justify-between items-center pl-4 pr-4 md:pl-8 md:pr-8 text-xl text-blue-50  bg-blue-700'>
                 <div className='font-bold text-2xl md:text-3xl'>
                     <h1>Ohad Raza</h1>
                 </div>
-                <button onClick={()=>setIsOpen(!isOpen)} className='md:hidden'>
-                    <img className='invert cursor-pointer' src="../src/assets/hamburger.png" alt="" />
+                <button onClick={() => setIsOpen(!isOpen)} className='md:hidden flex flex-col gap-1.5 cursor-pointer p-2'>
+                    <span className='block w-6 h-0.5 bg-white'></span>
+                    <span className='block w-6 h-0.5 bg-white'></span>
+                    <span className='block w-6 h-0.5 bg-white'></span>
                 </button>
                 <ul className='hidden md:flex justify-center items-center gap-12 '>
                     <li className='cursor-pointer'>

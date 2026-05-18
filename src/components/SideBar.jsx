@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function SideBar({isOpen}) {
     return (
-        <div className={`flex flex-col justify-center items-center font-bold fixed top-0 right-0 h-svh rounded-xl w-64 bg-blue-700 text-amber-50 text-xl 
+        <div className={`flex flex-col justify-center items-center font-bold fixed top-16 right-0 z-40 h-svh rounded-xl w-64 bg-blue-700 text-amber-50 text-xl 
         transition-transform duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
             <ul className='flex flex-col justify-center items-start gap-6 '>
                 <li className='cursor-pointer'>

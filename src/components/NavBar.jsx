@@ -7,7 +7,10 @@ export default function NavBar() {
                 <div>
                     <h1>Ohad Raza</h1>
                 </div>
-                <ul className='flex justify-center items-center gap-12'>
+                <div className='md:hidden'>
+                    <img className='invert' src="src\assets\hamburger.png" alt="" />
+                </div>
+                <ul className='hidden md:flex justify-center items-center gap-12 '>
                     <li className='cursor-pointer'>
                         <a href="#home" className='hover:text-blue-200 transition-colors'>Home</a>
                     </li>

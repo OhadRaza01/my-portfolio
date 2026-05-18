@@ -3,12 +3,12 @@ import React from 'react'
 export default function NavBar() {
     return (
         <header className='sticky top-0 z-50'>
-            <nav className=' h-18  flex justify-between items-center pl-8 pr-8 text-xl text-blue-50  bg-blue-700'>
+            <nav className=' h-18  flex justify-between items-center pl-4 pr-4 md:pl-8 md:pr-8 text-xl text-blue-50  bg-blue-700'>
                 <div>
                     <h1>Ohad Raza</h1>
                 </div>
                 <div className='md:hidden'>
-                    <img className='invert' src="src\assets\hamburger.png" alt="" />
+                    <img className='invert cursor-pointer' src="src\assets\hamburger.png" alt="" />
                 </div>
                 <ul className='hidden md:flex justify-center items-center gap-12 '>
                     <li className='cursor-pointer'>

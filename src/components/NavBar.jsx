@@ -12,7 +12,7 @@ export default function NavBar() {
                     <h1>Ohad Raza</h1>
                 </div>
                 <button onClick={()=>setIsOpen(!isOpen)} className='md:hidden'>
-                    <img className='invert cursor-pointer' src="src\assets\hamburger.png" alt="" />
+                    <img className='invert cursor-pointer' src="../src/assets/hamburger.png" alt="" />
                 </button>
                 <ul className='hidden md:flex justify-center items-center gap-12 '>
                     <li className='cursor-pointer'>

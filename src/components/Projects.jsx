@@ -2,6 +2,12 @@ import ProjectCard from "./ProjectCard"
 
 const projects = [
     {
+        title : "CodeShare",
+        description : "A developer platform to share code snippets, get community reviews, and upvote the best solutions. Built with React, Firebase, and Tailwind CSS.",
+        tech : ["React" ,"React-Router" ,"tailwind CSS" ,"Firebase"],
+        github : "https://github.com/OhadRaza01/code-share"
+    },
+    {
         title: "Weather App",
         description: "A real-time weather app that fetches live data using Open-Meteo API. Features include city search, error handling, and search history.",
         tech: ["HTML", "CSS", "JavaScript", "REST API"],

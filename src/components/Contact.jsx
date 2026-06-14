@@ -37,7 +37,7 @@ export default function Contact() {
                             href='mailto:ohadraza345@gmail.com'
                             className='font-black text-[14px] bg-yellow-200 text-black border-[2.5px] border-black px-6 py-3 rounded-xl no-underline shadow-[3px_3px_0_#f43f5e] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_#f43f5e] transition-all duration-100 text-center'
                         >
-                            Send email ✉
+                            Send email
                         </a>
                         <a
                             href='https://wa.me/923329067355'

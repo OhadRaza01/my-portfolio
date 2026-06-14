@@ -14,12 +14,6 @@ const projects = [
         github: "https://github.com/OhadRaza01/WeatherAPP-Js"
     },
     {
-        title: "Portfolio Website",
-        description: "Personal portfolio website built with React and Tailwind CSS showcasing my projects and skills.",
-        tech: ["React", "Tailwind CSS"],
-        github: "#"
-    },
-    {
         title: "Coming Soon",
         description: "Currently working on new projects. Check back soon!",
         tech: [],

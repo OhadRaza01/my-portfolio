@@ -22,7 +22,7 @@ export default function NavBar() {
                 onClose={() => setIsOpen(false)}
             />
 
-            <nav className='h-[62px] flex items-center justify-between px-5 md:px-10 bg-yellow-200 border-b-[3px] border-black'>
+            <nav className='h-15.5 flex items-center justify-between px-5 md:px-10 bg-yellow-200 border-b-[3px] border-black'>
 
                 {/* Logo */}
                 <div className='flex items-center gap-2'>
@@ -34,11 +34,11 @@ export default function NavBar() {
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     aria-label='Toggle menu'
-                    className='md:hidden flex flex-col gap-[5px] p-2 cursor-pointer bg-transparent border-none'
+                    className='md:hidden flex flex-col gap-1.25 p-2 cursor-pointer bg-transparent border-none'
                 >
-                    <span className={`block w-5 h-[2.5px] bg-black transition-all duration-300 ${isOpen ? 'rotate-45 translate-y-[7px]' : ''}`} />
+                    <span className={`block w-5 h-[2.5px] bg-black transition-all duration-300 ${isOpen ? 'rotate-45 translate-y-1.75' : ''}`} />
                     <span className={`block w-5 h-[2.5px] bg-black transition-all duration-300 ${isOpen ? 'opacity-0' : ''}`} />
-                    <span className={`block w-5 h-[2.5px] bg-black transition-all duration-300 ${isOpen ? '-rotate-45 -translate-y-[7px]' : ''}`} />
+                    <span className={`block w-5 h-[2.5px] bg-black transition-all duration-300 ${isOpen ? '-rotate-45 -translate-y-1.75' : ''}`} />
                 </button>
 
                 {/* Desktop links */}
@@ -65,7 +65,7 @@ export default function NavBar() {
                 <a
                     href='#contact'
                     onClick={() => setActive('Contact')}
-                    className='hidden md:inline-block font-black text-[13px] bg-black text-yellow-200 border-[2.5px] border-black px-5 py-[7px] rounded-xl no-underline shadow-[3px_3px_0_#f43f5e] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_#f43f5e] transition-all duration-100'
+                    className='hidden md:inline-block font-black text-[13px] bg-black text-yellow-200 border-[2.5px] border-black px-5 py-1.75 rounded-xl no-underline shadow-[3px_3px_0_#f43f5e] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_#f43f5e] transition-all duration-100'
                 >
                     Hire me !
                 </a>

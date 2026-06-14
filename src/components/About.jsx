@@ -64,7 +64,7 @@ export default function About() {
                             <span className='font-black text-white bg-black px-1.5 py-0.5 rounded'>
                                 Full Stack Developer
                             </span>
-                            , actively learning React and modern web technologies.
+                            , actively learning Express and modern web technologies.
                             Looking for an internship where I can contribute, grow & solve real problems.
                         </p>
 

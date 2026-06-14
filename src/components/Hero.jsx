@@ -42,7 +42,7 @@ export default function Hero() {
 
                     <div className='w-20 h-1 bg-rose-500 border border-black shadow-[2px_2px_0_#000] rounded-sm' />
 
-                    <p className='font-bold text-gray-400 text-base leading-relaxed max-w-sm'>
+                    <p className='font-bold text-center md:text-start text-gray-400 text-base  max-w-sm'>
                         Turning ideas into fast, functional & beautiful digital products.
                     </p>
 

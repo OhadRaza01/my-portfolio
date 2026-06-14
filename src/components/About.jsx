@@ -16,7 +16,6 @@ export default function About() {
                     <span className='bg-black text-yellow-200 font-black text-xs px-3 py-1.5 rounded border-2 border-black tracking-widest uppercase shadow-[2px_2px_0_#f43f5e]'>
                         About me
                     </span>
-                    <h2 className='font-black text-2xl text-black'>Who am I?</h2>
                 </div>
 
                 <div className='flex flex-col md:flex-row gap-10 items-center mditems-start'>
@@ -84,14 +83,7 @@ export default function About() {
                             </div>
                         </div>
 
-                        {/* Buttons */}
-                        <div className='flex flex-wrap gap-3 mt-1'>
-                            <a
-                                href='#contact'
-                                className='font-black text-[14px] bg-black text-yellow-200 border-[2.5px] border-black px-6 py-2.5 rounded-xl no-underline shadow-[3px_3px_0_#f43f5e] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_#f43f5e] transition-all duration-100'
-                            >
-                                Hire me !
-                            </a>
+                        <div className='mt-1'>
                             <a
                                 href='#projects'
                                 className='font-black text-[14px] bg-transparent text-black border-[2.5px] border-black px-6 py-2.5 rounded-xl no-underline hover:bg-black hover:text-yellow-200 transition-all duration-100'

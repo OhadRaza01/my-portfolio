@@ -20,12 +20,12 @@ export default function Hero() {
     return (
         <section
             id='home'
-            className='min-h-screen flex items-center bg-[#030712] px-5 py-20'
+            className='min-h-[calc(100vh-62px)] flex items-center bg-[#030712] px-5 py-20'
             style={{ fontFamily: 'Nunito, sans-serif' }}
         >
             <div className='max-w-4xl w-full mx-auto flex flex-col md:flex-row items-center justify-between gap-10'>
 
-                <div className='items-center flex flex-col md:items-start gap-4 flex-1'>
+                <div className='items-center flex flex-col md:items-start gap-2 md:gap-3 flex-1'>
 
                     <span className='font-extrabold text-xs bg-yellow-200 text-black border-2 border-black px-4 py-1.5 rounded-full shadow-[3px_3px_0_#000]'>
                         Full Stack Developer
@@ -52,12 +52,6 @@ export default function Hero() {
                             className='font-black text-sm bg-yellow-200 text-black border-[2.5px] border-black px-6 py-3 rounded-xl no-underline shadow-[4px_4px_0_#f43f5e] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_#f43f5e] transition-all duration-100 text-center'
                         >
                             See my work
-                        </a>
-                        <a
-                            href='#contact'
-                            className='font-black text-[14px] bg-transparent text-white border-[2.5px] border-white px-6 py-3 rounded-xl no-underline hover:bg-white hover:text-black transition-all duration-100 text-center'
-                        >
-                            Hire me !
                         </a>
                     </div>
 
